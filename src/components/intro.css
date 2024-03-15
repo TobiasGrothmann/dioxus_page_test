@@ -1,0 +1,30 @@
+.Intro {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bg);
+  padding: var(--gap-large) 0;
+}
+
+.Intro h1 {
+  color: var(--fg-highlight);
+}
+
+.intro-content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap);
+}
+
+.intro-content h1,
+.intro-content h2 {
+  margin-left: var(--left-row-space);
+  margin-right: var(--gap-large-2);
+}
+
+.logo {
+  margin-left: var(--gap-large);
+  margin-bottom: var(--gap);
+}
+.logo img {
+  height: 75px;
+}

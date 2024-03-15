@@ -1,0 +1,28 @@
+[package]
+name = "dioxus_test"
+version = "0.1.0"
+edition = "2021"
+description = "test"
+
+[dependencies]
+dioxus = "0.4.3"
+dioxus-logger = "0.4.1"
+dioxus-router = "0.4.3"
+dioxus-web = "0.4.3"
+log = "0.4.20"
+
+[package.metadata.bundle]
+name = "Page"
+identifier = "com.test"
+version = "1.0.0"
+copyright = "Copyright (c)"
+category = "Website"
+short_description = "Homepage"
+long_description = "Homepage"
+
+[profile.release]
+lto = true
+opt-level = 'z'
+strip = true
+codegen-units = 1
+panic = "abort"

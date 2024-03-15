@@ -1,0 +1,23 @@
+.Footer {
+  display: flex;
+  flex-direction: column;
+  padding-left: var(--left-row-space);
+  padding-top: var(--gap-4);
+  padding-bottom: var(--gap-4);
+  padding-right: var(--gap-large-2);
+  background: linear-gradient(var(--bg), var(--bg-0));
+  color: var(--fg-dark);
+}
+
+.footer_social {
+  display: flex;
+  flex-direction: row;
+  column-gap: var(--gap);
+  color: var(--fg-bright);
+}
+.footer_social_link {
+  margin-top: var(--gap);
+}
+.footer_social_link + .footer_social_link {
+  margin-left: var(--gap-2);
+}

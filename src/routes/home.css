@@ -1,0 +1,14 @@
+.technique {
+  padding-left: 50%;
+  padding-top: var(--gap-large);
+  padding-bottom: var(--gap-large);
+  padding-right: var(--gap-large);
+  background-image: url("img/technique-background.jpg");
+  background-size: cover;
+}
+
+.technique-content {
+  display: flex;
+  flex-direction: column;
+  row-gap: var(--gap-2);
+}
